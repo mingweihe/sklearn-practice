@@ -5,6 +5,9 @@ import sys
 digits = datasets.load_digits()
 X_digits = digits.data / digits.data.max()
 y_digits = digits.target
+# import matplotlib.pyplot as plt
+# plt.imshow(digits.data[0].reshape(-1,8))
+# plt.show()
 
 n_sapmles = len(X_digits)
 
