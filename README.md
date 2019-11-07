@@ -22,5 +22,6 @@
  <img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/reg_2.png?raw=true" width='80%'>
   </div>
   <br>
-<h4>3. Clustering</h4>
-<h4>4. Dimensionality reduction</h4>
+
+## 3. Clustering
+## 4. Dimensionality reduction
