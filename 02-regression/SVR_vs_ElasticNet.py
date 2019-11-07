@@ -31,4 +31,3 @@ plt.plot(preds, label='y_predict')
 plt.legend()
 plt.show()
 print(model.score(X_test, y_test))
-
