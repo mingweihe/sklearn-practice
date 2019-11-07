@@ -1,4 +1,4 @@
-# Dimensionality reduction
+# Several popular Dimensionality reduction algorithms
 Inspired from [Incremental PCA](https://scikit-learn.org/stable/auto_examples/decomposition/plot_incremental_pca.html)
 <div style="text-align: center;">
 <img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/pca_vs_ipca.png?raw=true" width='80%'>
