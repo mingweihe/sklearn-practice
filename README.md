@@ -11,7 +11,6 @@
   <br>
 
 ## 2. comparison of various regressors
-
 [Details](../master/02-regression)
 <div style="text-align: center;">
 <img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/reg_1.png?raw=true" width='80%'>
@@ -23,12 +22,14 @@
   <br>
 
 ## 3. Clustering
+[Details](../master/03-clustering)
 <div style="text-align: center;">
 <img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/clustering.png?raw=true" width='80%'>
   </div>
   <br>
 
 ## 4. Dimensionality reduction
+[Details](../master/04-dimensionality-reduction)
 <div style="text-align: center;">
 <img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/pca_vs_ipca.png?raw=true" width='80%'>
   </div>
