@@ -23,4 +23,17 @@
   <br>
 
 ## 3. Clustering
+<div style="text-align: center;">
+<img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/clustering.png?raw=true" width='80%'>
+  </div>
+  <br>
+
 ## 4. Dimensionality reduction
+<div style="text-align: center;">
+<img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/pca_vs_ipca.png?raw=true" width='80%'>
+  </div>
+  <br>
+<div style="text-align: center;">
+<img src = "https://github.com/mingweihe/sklearn-practice/blob/master/imgs/pca_vs_lda.png?raw=true" width='80%'>
+  </div>
+  <br>

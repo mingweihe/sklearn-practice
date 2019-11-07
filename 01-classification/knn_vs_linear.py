@@ -1,8 +1,10 @@
-from sklearn import datasets, neighbors, linear_model
-import pickle
 import sys
+import pickle
+from sklearn.datasets import load_digits
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
 
-digits = datasets.load_digits()
+digits = load_digits()
 X_digits = digits.data / digits.data.max()
 y_digits = digits.target
 # import matplotlib.pyplot as plt
@@ -16,8 +18,8 @@ y_train = y_digits[:int(.9 * n_sapmles)]
 X_test = X_digits[int(.9 * n_sapmles):]
 y_test = y_digits[int(.9 * n_sapmles):]
 
-knn = neighbors.KNeighborsClassifier()
-logistic = linear_model.LogisticRegression(solver='lbfgs', max_iter=1000, multi_class='multinomial')
+knn = KNeighborsClassifier()
+logistic = LogisticRegression(solver='lbfgs', max_iter=1000, multi_class='multinomial')
 
 # calculate size of models
 s_knn = pickle.dumps(knn)
