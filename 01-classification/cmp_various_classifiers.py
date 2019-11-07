@@ -103,6 +103,7 @@ for k, v in performances.items(): performances[k] = v/3
 data = list(zip(*sorted(performances.items(), key=lambda x:x[1])))
 plt.plot(data[0], data[1], '-.o', figure=plt.figure(figsize=(15, 7)))
 for a, b in zip(data[0], data[1]): plt.text(a, b, '%.2f' % b, ha='center', va='bottom', fontsize=9)
+plt.title('Performances under current datasets')
 plt.grid()
 plt.show()
 
